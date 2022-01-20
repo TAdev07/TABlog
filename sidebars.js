@@ -19,13 +19,118 @@ const sidebars = {
   // But you can create a sidebar manually
   /*
   tutorialSidebar: [
+    'introduction',
     {
       type: 'category',
-      label: 'Tutorial',
-      items: ['hello'],
+      label: 'Getting Started',
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: false,
+      items: [
+        'installation',
+        'configuration',
+        'playground',
+        'typescript-support',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      link: {
+        type: 'generated-index',
+        title: 'Docusaurus Guides',
+        description:
+          "Let's learn about the most important Docusaurus concepts!",
+        keywords: ['guides'],
+        image: '/img/docusaurus.png',
+      },
+      items: [
+        'guides/creating-pages',
+        {
+          type: 'category',
+          label: 'Docs',
+          link: {
+            type: 'doc',
+            id: 'guides/docs/introduction',
+          },
+          items: [
+            'guides/docs/create-doc',
+            'guides/docs/sidebar',
+            'guides/docs/versioning',
+            'guides/docs/markdown-features',
+            'guides/docs/multi-instance',
+          ],
+        },
+        'blog',
+        {
+          type: 'category',
+          label: 'Markdown Features',
+          link: {
+            type: 'doc',
+            id: 'guides/markdown-features/introduction',
+          },
+          items: [
+            'guides/markdown-features/react',
+            'guides/markdown-features/tabs',
+            'guides/markdown-features/code-blocks',
+            'guides/markdown-features/admonitions',
+            'guides/markdown-features/headings',
+            'guides/markdown-features/inline-toc',
+            'guides/markdown-features/assets',
+            'guides/markdown-features/plugins',
+            'guides/markdown-features/math-equations',
+            'guides/markdown-features/head-metadata',
+          ],
+        },
+        'styling-layout',
+        'static-assets',
+        'search',
+        'browser-support',
+        'seo',
+        'deployment',
+        {
+          type: 'category',
+          label: 'Internationalization',
+          link: {type: 'doc', id: 'i18n/introduction'},
+          items: [
+            {
+              type: 'doc',
+              id: 'i18n/tutorial',
+              label: 'Tutorial',
+            },
+            {
+              type: 'doc',
+              id: 'i18n/git',
+              label: 'Using Git',
+            },
+            {
+              type: 'doc',
+              id: 'i18n/crowdin',
+              label: 'Using Crowdin',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Advanced Guides',
+      items: ['using-plugins', 'using-themes', 'presets'],
+    },
+    {
+      type: 'category',
+      label: 'Migrating from v1 to v2',
+      items: [
+        'migration/migration-overview',
+        'migration/migration-automated',
+        'migration/migration-manual',
+        'migration/migration-versioned-sites',
+        'migration/migration-translated-sites',
+      ],
     },
   ],
-   */
+  */
 };
 
 module.exports = sidebars;
