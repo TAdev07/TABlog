@@ -15,7 +15,7 @@ Nếu bạn cần hiểu rõ hơn tên miền là gì và cách thức nó hoạ
 Nếu bạn cần hiểu rõ hơn tên miền là gì và cách thức nó hoạt động như thế nào? Hãy xem qua giải thích chi tiết về tên miền ngay bên dưới thôi nào!
 
 ## Tên miền hoạt động như thế nào?
-![Cấu trúc tên miền](../assets/images/cau-truc-ten-mien.png)
+![Cấu trúc tên miền](/img/tutorial/cau-truc-ten-mien.png)
 
 Tên miền là đường tắt đi đến server host website của bạn. Một tên miền (domain name) giống như một địa chỉ nhà vì đó là cách mọi người tìm thấy bạn trên World Wide Web.
 
