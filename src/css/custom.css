@@ -27,5 +27,9 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+table tr:nth-child(2n) {
+    background-color: transparent;
+}
+
 @tailwind components;
 @tailwind utilities;

@@ -1,0 +1,14 @@
+.list-due {
+    position: relative;
+    padding-left: 30px;
+}
+
+.list-due::before {
+    content: '';
+    border-left: 1px solid #4e4e4e;
+    height: 100%;
+    left: 9px;
+    font-size: 25px;
+    position: absolute;
+    top: 8px;
+}
