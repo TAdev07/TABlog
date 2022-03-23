@@ -18,12 +18,12 @@ export default function Education() {
   return (
     <>
         <Title>Skill</Title>
-        <h4 className="text-2xl flex items-center mt-4 mb-1"><BiCodeAlt className="text-2xl mr-2" />Technical</h4>
+        <h4 className="text-xl flex items-center mt-4 mb-1"><BiCodeAlt className="text-2xl mr-2" />Technical</h4>
         <div className="ml-4">
-            <h5 className="text-xl mb-1">Main skill</h5>
+            <h5 className="text-lg mb-1">Main skill</h5>
             <ul className="pl-4">
                 <li className="flex items-end mb-2">
-                    <div className="border-solid border-0 border-b border-gray-400 text-gray-500 w-36">4 Year</div>
+                    <div className="border-solid border-0 border-b border-gray-300 text-gray-500 w-36">4 Year</div>
                     <div className="flex">
                         <TagSkill icon={<AiFillHtml5/>} name="HTML5" />
                         <TagSkill icon={<DiCss3/>} name="CSS3" />
@@ -31,16 +31,16 @@ export default function Education() {
                     </div>
                 </li>
                 <li className="flex items-end">
-                    <div className="border-solid border-0 border-b border-gray-400 text-gray-500 w-36">3 Year</div>
+                    <div className="border-solid border-0 border-b border-gray-300 text-gray-500 w-36">3 Year</div>
                     <div className="flex">
                         <TagSkill icon={<FaReact/>} name="REACT" />
                     </div>
                 </li>
             </ul >
-            <h5 className="text-xl mb-1">Sub skill</h5>
+            <h5 className="text-lg mb-1">Sub skill</h5>
             <ul className="pl-4">
                 <li className="flex items-end mb-2">
-                    <div className="border-solid border-0 border-b border-gray-400 text-gray-500 w-36">
+                    <div className="border-solid border-0 border-b border-gray-300 text-gray-500 w-36">
                         Server side, API
                     </div>
                     <div className="flex">
@@ -50,7 +50,7 @@ export default function Education() {
                     </div>
                 </li>
                 <li className="flex items-end mb-2">
-                    <div className="border-solid border-0 border-b border-gray-400 text-gray-500 w-36">
+                    <div className="border-solid border-0 border-b border-gray-300 text-gray-500 w-36">
                         CSS Framework
                     </div>
                     <div className="flex flex-wrap">
@@ -61,7 +61,7 @@ export default function Education() {
                     </div>
                 </li>
                 <li className="flex items-end mb-2">
-                    <div className="border-solid border-0 border-b border-gray-400 text-gray-500 w-36">
+                    <div className="border-solid border-0 border-b border-gray-300 text-gray-500 w-36">
                         Build Tools
                     </div>
                     <div className="flex">
@@ -70,7 +70,7 @@ export default function Education() {
                     </div>
                 </li>
                 <li className="flex items-end mb-2">
-                    <div className="border-solid border-0 border-b border-gray-400 text-gray-500 w-36">
+                    <div className="border-solid border-0 border-b border-gray-300 text-gray-500 w-36">
                         Mobile
                     </div>
                     <div className="flex">
@@ -78,7 +78,7 @@ export default function Education() {
                     </div>
                 </li>
                 <li className="flex items-end mb-2">
-                    <div className="border-solid border-0 border-b border-gray-400 text-gray-500 w-36">
+                    <div className="border-solid border-0 border-b border-gray-300 text-gray-500 w-36">
                         CSS in JavaScript
                     </div>
                     <div className="flex">
