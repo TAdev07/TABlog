@@ -58,7 +58,7 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {to: '/resume', label: 'About', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/TAdev07/TABlog',
             label: 'GitHub',
             position: 'right',
           },
@@ -102,7 +102,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/TAdev07/TABlog',
               },
             ],
           },
