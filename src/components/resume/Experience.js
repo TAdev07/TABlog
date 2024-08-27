@@ -12,7 +12,31 @@ export default function Experience() {
       <ul className='p-2' style={{listStyle: 'none'}}>
         <li className={`${styles['list-due']} pb-5`}>
           <GoPrimitiveDot className='text-[19px] absolute left-0 text-[#4e4e4e]' />
-          <h5 className='text-sm font-normal italic text-gray-500 mb-1'>May 2021 – Now</h5>
+          <h5 className='text-sm font-normal italic text-gray-500 mb-1'>Dec 2022 – Now</h5>
+          <h4 className='mb-2'>Vinhomes</h4>
+          <ul>
+            <li>
+              As a Software Engineer specializing in web application development at Vinhomes, I have been responsible
+              for the design, development, and implementation of various web-based CMS applications for the corporation.
+              Some of the key projects I have worked on include:
+            </li>
+            <li>
+              <strong>VPM (Vinhomes Procurement Management):</strong> A supply and bidding management system for green
+              nursery materials, facilitating efficient procurement processes.
+            </li>
+            <li>
+              <strong>AVNF (An Ninh VinFast):</strong> A security management application designed for VinFast factories,
+              ensuring robust security protocols and operations.
+            </li>
+            <li>
+              <strong>DREAM (Digital Real Estate Management):</strong> A management application for the Vinhomes Ocean
+              Park urban area, streamlining administrative tasks and improving operational efficiency.
+            </li>
+          </ul>
+        </li>
+        <li className={`${styles['list-due']} pb-5`}>
+          <GoPrimitiveDot className='text-[19px] absolute left-0 text-[#4e4e4e]' />
+          <h5 className='text-sm font-normal italic text-gray-500 mb-1'>May 2021 – Nov 2022</h5>
           <h4 className='mb-2'>Houze Group</h4>
           <ul>
             <li>Software Engineer at the company, create and develop website, mobile application.</li>

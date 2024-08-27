@@ -89,7 +89,8 @@ export default function Home() {
             <div className='text-right'>
               <h4 className='mb-1'>CV was last updated on</h4>
               {/* <h3>23 Mar 2022</h3> */}
-              <h3>17 Nov 2022</h3>
+              {/* <h3>17 Nov 2022</h3> */}
+              <h3>27 Aug 2024</h3>
             </div>
           </div>
           <hr />
